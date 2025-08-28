@@ -1,0 +1,34 @@
+{
+  "individuals": [
+    {
+      "name": "Charlie",
+      "current_age": 58,
+      "retirement_age": 63,
+      "planning_horizon": 90,
+      "pre_retirement_income": 90000,
+      "post_retirement_income": 35000,
+      "portfolio": {
+        "cash": 15000,
+        "taxable": 60000,
+        "tax_deferred": 120000,
+        "tax_free": 20000
+      },
+      "annual_savings": {
+        "cash": 4000,
+        "taxable": 8000,
+        "tax_deferred": 12000,
+        "tax_free": 3000
+      }
+    }
+  ],
+  "pre_retirement_expenses": 60000,
+  "post_retirement_expenses": 45000,
+  "returns": {
+    "cash": {"mean": 0.01, "volatility": 0.01},
+    "taxable": {"mean": 0.06, "volatility": 0.12},
+    "tax_deferred": {"mean": 0.06, "volatility": 0.12},
+    "tax_free": {"mean": 0.05, "volatility": 0.1}
+  },
+  "inflation": 0.02,
+  "num_simulations": 1000
+}
