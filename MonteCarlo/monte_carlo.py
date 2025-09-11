@@ -184,7 +184,7 @@ def run_simulation(json_file, num_simulations=None):
     return {"Combined": results}
 
 if __name__ == "__main__":
-    results = run_simulation("single_retirement_input.json", num_simulations=1000)
+    results = run_simulation("married_retirement_input.json", num_simulations=1000)
     
     current_year = datetime.now().year
     for name, res in results.items():
