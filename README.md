@@ -149,8 +149,6 @@ PostgreSQL Database
 
 ## Project Purpose
 
-Project Purpose
-
 This project was designed as a portfolio demonstration of skills relevant to:
 
 - Financial technology (FinTech)
